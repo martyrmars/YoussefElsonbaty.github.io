@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Welcome To My Website!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;0,700;1,100;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    </head>
+<body>
+    <section class="header">
+    <nav>
+     <a href="Index.html"><img length=300 width=192 src="images/MyName.png" alt="Logo")></a>
+        <div class="nav-links" id="navLinks">
+         <i class="fa fa-times" onclick="HideMenu()"></i>
+          <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">PROJECTS</a></li>
+            <li><a href="">BLOG</a></li>
+            <li><a href="">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="ShowMenu()"></i>
+    </nav>
+    
+<!---------Main body in the middle of the homepage words and button-------->
+<div class="text-box">
+    <h1>Welcome To My Website!</h1>    
+    <p>In this website you can find out more information about me, what I have accomplished so far, 
+        and a blog i'll try to update regularly.
+    <br>I am working on adding my services to this website so that clients can contact me more 
+    easily for work.
+        
+    
+    </p>    
+    <a href="" class="hero-btn">Contact Me Through These Links!</a>   
+</div>
+    
+    
+    
+    </section>
+
+<!-----course---->
+
+<section class="course">
+    <h1>What I Have Worked On</h1>
+    <p>Below is what I have previously done and what I am currently doing at the moment.</p>
+
+    <div class="row">
+        <div class="Course-col">
+            <h3>Mosme'e</h3>
+            <p>This was my graduation project for my last year in electrical engineering and is 
+                by far the project I am most proud of.</p>
+        </div>
+        <div class="Course-col">
+            <h3>MIT Bootcamp</h3>
+            <p>Right after I finished university I had entered a competition by MIT to try and come
+                up with an innovative idea to help with the growing unemployment issue in the gulf 
+                region. Here I learnt how to cement my ability in working with a team of people and 
+                with an idea I had previously never worked with.</p>
+        </div>
+        <div class="Course-col">
+            <h3>Blender 3D</h3>
+            <p>This is more of a passionate angle to what I do in my free time. I have worked on
+                several blender projects both for myself and for some clients for free lance work.
+                I quite enjoy using blender and learning how to hone my skills and I am more than happy
+                to take on new challenging projects whenever an order is placed for me.
+            </p>
+        </div>
+        
+
+
+    </div>
+</section>
+
+<!-----campus------>
+
+<section class="Projects">
+    <h1>Current Projects</h1>
+    <p>My current project is working on being an experienced hard surface modeller in Blender.</p>
+    
+    <div class="row">
+        <div class="Projects-col">
+            <img src="images/FinalPassForestTrees.png" alt="Forest">
+            <div class="layer">
+                <h3>A Forest Of Trees</h3>
+            </div>
+        
+
+        </div> 
+
+    </div>
+
+
+</section>
+
+<!-----JavaScrip for toggling burger menu---->
+    <script>
+    
+        var navLinks=document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navlinks.style.right= "-200px";
+        }
+        
+    </script>
+    
+</body>
+    
+</html>
